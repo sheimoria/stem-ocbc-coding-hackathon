@@ -3329,34 +3329,6 @@ react@latest:
   languageName: node
   linkType: hard
 
-"shemmaleriado.com@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "shemmaleriado.com@workspace:."
-  dependencies:
-    "@headlessui/react": latest
-    "@heroicons/react": latest
-    "@tailwindcss/aspect-ratio": latest
-    "@tailwindcss/forms": latest
-    "@tailwindcss/line-clamp": latest
-    "@tailwindcss/typography": latest
-    "@types/node": ^17.0.21
-    "@types/react": latest
-    autoprefixer: latest
-    eslint: latest
-    eslint-config-next: latest
-    husky: latest
-    intersection-observer: latest
-    next: latest
-    next-themes: latest
-    postcss: latest
-    react: latest
-    react-awesome-reveal: latest
-    react-dom: latest
-    tailwindcss: latest
-    typescript: latest
-  languageName: unknown
-  linkType: soft
-
 "side-channel@npm:^1.0.4":
   version: 1.0.4
   resolution: "side-channel@npm:1.0.4"
@@ -3432,6 +3404,34 @@ react@latest:
   checksum: bc447f5af814fa9713aa201ec2522208ae0f4d8f3bda7a1f445a797c7b929a02720436ff7c478fb5edc4045adb02b1b88d2341b436a80798734e2494f1067b36
   languageName: node
   linkType: hard
+
+"stem-ocbc-coding-hackathon@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "stem-ocbc-coding-hackathon@workspace:."
+  dependencies:
+    "@headlessui/react": latest
+    "@heroicons/react": latest
+    "@tailwindcss/aspect-ratio": latest
+    "@tailwindcss/forms": latest
+    "@tailwindcss/line-clamp": latest
+    "@tailwindcss/typography": latest
+    "@types/node": ^17.0.21
+    "@types/react": latest
+    autoprefixer: latest
+    eslint: latest
+    eslint-config-next: latest
+    husky: latest
+    intersection-observer: latest
+    next: latest
+    next-themes: latest
+    postcss: latest
+    react: latest
+    react-awesome-reveal: latest
+    react-dom: latest
+    tailwindcss: latest
+    typescript: latest
+  languageName: unknown
+  linkType: soft
 
 "string-width@npm:^1.0.2 || 2 || 3 || 4, string-width@npm:^4.2.3":
   version: 4.2.3

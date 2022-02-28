@@ -4,9 +4,12 @@ import Header from 'components/Header'
 import type { NextPage } from 'next'
 
 const data = [
-  { title: 'Loans', text: 'Click here to compare' },
-  { title: 'Electricity', text: 'Click here to compare' },
-  { title: 'Entertainment', text: 'Click here to compare' }
+  { title: 'General', text: '220 posts' },
+  { title: 'Savings Plans', text: '110 posts' },
+  { title: 'Education', text: '22 posts' },
+  { title: 'Housing', text: '60 posts' },
+  { title: 'Investment', text: '72 posts' },
+  { title: 'FAQ', text: '87 posts' }
 ]
 
 const Forum: NextPage = () => {
@@ -17,20 +20,15 @@ const Forum: NextPage = () => {
       </Head>
       <Header />
       <main className="flex flex-col max-w-7xl gap-8 mx-auto w-full">
-        <h2>Price Comparisons</h2>
-        <div className="grid grid-cols-3 gap-8">
+        <h2>Threads</h2>
+        <div className="flex flex-col gap-8">
           {data.map((article) => (
             <div
               key={article.title}
-              className="rounded flex flex-col flex-1 bg-white overflow-hidden"
+              className="rounded flex flex-col p-8 flex-1 bg-white overflow-hidden"
             >
-              <div className="w-full h-48 bg-gray-200 p-8 text-gray-400 justify-center items-center">
-                Image
-              </div>
-              <div className="p-8">
-                <h3>{article.title}</h3>
-                <p>{article.text}</p>
-              </div>
+              <h3>{article.title}</h3>
+              <span className="text-gray-400">{article.text}</span>
             </div>
           ))}
         </div>

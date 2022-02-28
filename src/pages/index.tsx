@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from 'components/Header'
 import Image from 'next/image'
 import type { NextPage } from 'next'
+import router from 'next/router'
 
 const data = [
   {
@@ -38,7 +39,8 @@ const News: NextPage = () => {
           {data.map((article) => (
             <div
               key={article.title}
-              className="rounded flex flex-col flex-1 bg-white overflow-hidden"
+              className="rounded flex flex-col flex-1 bg-white overflow-hidden cursor-pointer bg-gray-50 transition-colors"
+              onClick={() => router.push(article.url)}
             >
               <div className="relative w-full h-48 bg-gray-200 p-8 text-gray-400 justify-center items-center">
                 <Image
