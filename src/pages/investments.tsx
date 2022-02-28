@@ -4,7 +4,7 @@ import Header from "components/Header";
 import type { NextPage } from "next";
 
 const data = [
-  { title: "Long term investments"},
+  { title: "Long term investments", image: "/investment.jpg"},
 ];
 
 const Investments: NextPage = () => {

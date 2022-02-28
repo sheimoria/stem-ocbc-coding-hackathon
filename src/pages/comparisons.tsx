@@ -5,15 +5,15 @@ import Image from "next/image";
 import type { NextPage } from "next";
 
 const data = [
-  { title: "Loans", text: "Click here to compare", image: "/loans.jpg" },
+  { title: "Loans", text: "Choose your loan type", image: "/loans.jpg" },
   {
     title: "Electricity",
-    text: "Click here to compare",
+    text: "Check between different operators",
     image: "/electricity.jpg",
   },
   {
     title: "Entertainment",
-    text: "Click here to compare",
+    text: "Check different platform deals",
     image: "/entertainment.jpg",
   },
 ];
