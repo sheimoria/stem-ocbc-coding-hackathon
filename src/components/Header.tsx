@@ -17,13 +17,13 @@ const Header = () => {
           href="#education"
           className="text-white font-medium transition-colors hover:text-gray-100 dark:text-gray-100 dark:hover:text-white"
         >
-          Goals
+          Comparisons
         </a>
         <a
           href="#education"
           className="text-white font-medium transition-colors hover:text-gray-100 dark:text-gray-100 dark:hover:text-white"
         >
-          Saving
+          Investments
         </a>
         <a
           href="#education"
