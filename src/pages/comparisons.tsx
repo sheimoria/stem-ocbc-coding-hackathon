@@ -1,18 +1,22 @@
-import Head from 'next/head'
-import Header from 'components/Header'
-import Image from 'next/image'
+import Head from "next/head";
+import Header from "components/Header";
+import Image from "next/image";
 
-import type { NextPage } from 'next'
+import type { NextPage } from "next";
 
 const data = [
-  { title: 'Loans', text: 'Click here to compare', image: '/loans.jpg' },
+  { title: "Loans", text: "Click here to compare", image: "/loans.jpg" },
   {
-    title: 'Electricity',
-    text: 'Click here to compare',
-    image: '/electricity.jpg'
+    title: "Electricity",
+    text: "Click here to compare",
+    image: "/electricity.jpg",
   },
-  { title: 'Entertainment', text: 'Click here to compare', image: '/loans.jpg' }
-]
+  {
+    title: "Entertainment",
+    text: "Click here to compare",
+    image: "/entertainment.jpg",
+  },
+];
 
 const Comparisons: NextPage = () => {
   return (
@@ -46,7 +50,7 @@ const Comparisons: NextPage = () => {
         </div>
       </main>
     </>
-  )
-}
+  );
+};
 
-export default Comparisons
+export default Comparisons;
