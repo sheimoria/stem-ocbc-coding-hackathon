@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Header = () => {
   return (
-    <header className="fixed bg-red-600 top-0 left-0 z-10 flex items-center justify-between w-full px-8 py-6">
+    <header className="bg-red-600 flex items-center justify-between w-full px-8 py-6">
       <h1 className="text-white font-medium">OCBC</h1>
       {/* Desktop */}
       <nav className="gap-8 items-center flex">
