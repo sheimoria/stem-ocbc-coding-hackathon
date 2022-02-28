@@ -12,7 +12,7 @@ const data = [
   { title: 'asdf', text: 'asdf', image: '/loans.jpg' }
 ]
 
-const Home: NextPage = () => {
+const News: NextPage = () => {
   return (
     <>
       <Head>
@@ -28,7 +28,12 @@ const Home: NextPage = () => {
               className="rounded flex flex-col flex-1 bg-white overflow-hidden"
             >
               <div className="relative w-full h-48 bg-gray-200 p-8 text-gray-400 justify-center items-center">
-                <Image src={article.image} alt={article.image} layout="fill" objectFit="contain" />
+                <Image
+                  src={article.image}
+                  alt={article.image}
+                  layout="fill"
+                  objectFit="contain"
+                />
               </div>
               <div className="p-8">
                 <h3>{article.title}</h3>
@@ -42,4 +47,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default News

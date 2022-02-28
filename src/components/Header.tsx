@@ -1,5 +1,4 @@
-import { useTheme } from 'next-themes'
-import Image from 'next/image'
+import Link from 'next/link'
 
 const Header = () => {
   return (
@@ -7,30 +6,26 @@ const Header = () => {
       <h1 className="text-white font-medium">OCBC</h1>
       {/* Desktop */}
       <nav className="gap-8 items-center flex">
-        <a
-          href="/"
-          className="text-white font-medium transition-colors hover:text-gray-100 dark:text-gray-100 dark:hover:text-white"
-        >
-          News
-        </a>
-        <a
-          href="/comparisons"
-          className="text-white font-medium transition-colors hover:text-gray-100 dark:text-gray-100 dark:hover:text-white"
-        >
-          Comparisons
-        </a>
-        <a
-          href="/investments"
-          className="text-white font-medium transition-colors hover:text-gray-100 dark:text-gray-100 dark:hover:text-white"
-        >
-          Investments
-        </a>
-        <a
-          href="#education"
-          className="text-white font-medium transition-colors hover:text-gray-100 dark:text-gray-100 dark:hover:text-white"
-        >
-          Forum
-        </a>
+        <Link href="/">
+          <a className="text-white font-medium transition-colors hover:text-gray-100 dark:text-gray-100 dark:hover:text-white">
+            News
+          </a>
+        </Link>
+        <Link href="/comparisons">
+          <a className="text-white font-medium transition-colors hover:text-gray-100 dark:text-gray-100 dark:hover:text-white">
+            Comparisons
+          </a>
+        </Link>
+        <Link href="/investments">
+          <a className="text-white font-medium transition-colors hover:text-gray-100 dark:text-gray-100 dark:hover:text-white">
+            Investments
+          </a>
+        </Link>
+        <Link href="/forum">
+          <a className="text-white font-medium transition-colors hover:text-gray-100 dark:text-gray-100 dark:hover:text-white">
+            Forum
+          </a>
+        </Link>
       </nav>
     </header>
   )

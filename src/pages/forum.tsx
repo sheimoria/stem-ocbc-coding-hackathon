@@ -1,20 +1,15 @@
 import Head from 'next/head'
 import Header from 'components/Header'
-import Image from 'next/image'
 
 import type { NextPage } from 'next'
 
 const data = [
-  { title: 'Loans', text: 'Click here to compare', image: '/loans.jpg' },
-  {
-    title: 'Electricity',
-    text: 'Click here to compare',
-    image: '/electricity.jpg'
-  },
-  { title: 'Entertainment', text: 'Click here to compare', image: '/loans.jpg' }
+  { title: 'Loans', text: 'Click here to compare' },
+  { title: 'Electricity', text: 'Click here to compare' },
+  { title: 'Entertainment', text: 'Click here to compare' }
 ]
 
-const Comparisons: NextPage = () => {
+const Forum: NextPage = () => {
   return (
     <>
       <Head>
@@ -29,13 +24,8 @@ const Comparisons: NextPage = () => {
               key={article.title}
               className="rounded flex flex-col flex-1 bg-white overflow-hidden"
             >
-              <div className="relative w-full h-48 bg-gray-200 p-8 text-gray-400 justify-center items-center">
-                <Image
-                  src={article.image}
-                  alt={article.image}
-                  layout="fill"
-                  objectFit="contain"
-                />
+              <div className="w-full h-48 bg-gray-200 p-8 text-gray-400 justify-center items-center">
+                Image
               </div>
               <div className="p-8">
                 <h3>{article.title}</h3>
@@ -49,4 +39,4 @@ const Comparisons: NextPage = () => {
   )
 }
 
-export default Comparisons
+export default Forum
