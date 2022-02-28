@@ -1,0 +1,37 @@
+{
+  "name": "shemmaleriado.com",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "husky install"
+  },
+  "dependencies": {
+    "@headlessui/react": "latest",
+    "@heroicons/react": "latest",
+    "@tailwindcss/aspect-ratio": "latest",
+    "@tailwindcss/forms": "latest",
+    "@tailwindcss/line-clamp": "latest",
+    "@tailwindcss/typography": "latest",
+    "intersection-observer": "latest",
+    "next": "latest",
+    "next-themes": "latest",
+    "react": "latest",
+    "react-awesome-reveal": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "husky": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  },
+  "packageManager": "yarn@3.0.2"
+}
