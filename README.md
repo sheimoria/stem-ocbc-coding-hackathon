@@ -1,4 +1,4 @@
-# personal-website
+# STEM@OCBC Coding Hackathon
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
