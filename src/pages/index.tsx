@@ -6,6 +6,9 @@ import type { NextPage } from 'next'
 const data = [
   { title: 'asdf', text: 'asdf' },
   { title: 'asdf', text: 'asdf' },
+  { title: 'asdf', text: 'asdf' },
+  { title: 'asdf', text: 'asdf' },
+  { title: 'asdf', text: 'asdf' },
   { title: 'asdf', text: 'asdf' }
 ]
 
@@ -18,8 +21,7 @@ const Home: NextPage = () => {
       <Header />
       <main className="flex flex-col max-w-7xl gap-8 mx-auto w-full">
         <h2>Top Financial News</h2>
-        <div className="flex gap-8">
-          <div className=""></div>
+        <div className="grid grid-cols-3 gap-8">
           {data.map((article) => (
             <div
               key={article.title}
