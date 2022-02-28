@@ -8,19 +8,19 @@ const Header = () => {
       {/* Desktop */}
       <nav className="gap-8 items-center flex">
         <a
-          href=""
+          href="/"
           className="text-white font-medium transition-colors hover:text-gray-100 dark:text-gray-100 dark:hover:text-white"
         >
           News
         </a>
         <a
-          href="#education"
+          href="/comparisons"
           className="text-white font-medium transition-colors hover:text-gray-100 dark:text-gray-100 dark:hover:text-white"
         >
           Comparisons
         </a>
         <a
-          href="#education"
+          href="/investments"
           className="text-white font-medium transition-colors hover:text-gray-100 dark:text-gray-100 dark:hover:text-white"
         >
           Investments
